@@ -26,6 +26,6 @@ public class Two extends Namber {
     };
 
     public String aswer() {
-        return "a) 1/("+vsego+"!)"+" b) "+ chast+"!/"+vsego+"!/";
+        return "a) "+(1.00-((vsego-b)*(vsego-b)*(vsego-b)/(vsego*vsego*vsego)))+" b) "+ chast+"!/"+vsego+"!/";
     }
 }

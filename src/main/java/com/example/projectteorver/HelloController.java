@@ -12,9 +12,10 @@ public class HelloController {
     @FXML
     protected void onHelloButtonClick() {
         seed=random.nextInt();
-        Ferst f= new Ferst(seed);
-        Two g = new Two(seed);
-        welcomeText.setText(f.get()+"\n"+g.get());
+        Ferst ferst= new Ferst(seed);
+        Two two = new Two(seed);
+        Three three = new Three(seed);
+        welcomeText.setText(ferst.get()+"\n"+two.get()+"\n"+three.get()+"\n"+two.aswer());
 
     }
 }
