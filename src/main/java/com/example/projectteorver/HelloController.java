@@ -7,11 +7,14 @@ public class HelloController {
     @FXML
     private Label welcomeText;
     Random random = new Random();
+    int seed;
 
     @FXML
     protected void onHelloButtonClick() {
-        Namber f= new Namber(random.nextInt());
-        welcomeText.setText(f.get());
+        seed=random.nextInt();
+        Ferst f= new Ferst(seed);
+        Two g = new Two(seed);
+        welcomeText.setText(f.get()+"\n"+g.get());
 
     }
 }

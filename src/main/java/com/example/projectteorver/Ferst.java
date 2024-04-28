@@ -6,9 +6,9 @@ public class Ferst extends Namber{
         super(seed);
     }
     public String get(){
-        vsego = Math.abs(r.nextInt()%30)+4;
-        chast = Math.abs(r.nextInt()%(vsego/2))+2;
-        return "1. На сортировочном пункте в ожидании подачи на\n"+
+        vsego = rand(4,30);
+        chast = rand(2,vsego/2);;
+        return ". На сортировочном пункте в ожидании подачи на\n"+
                 " подъездной путь стоят " + vsego +" вагонов для разных направлений.\n"+
                 " Найти вероятность того, что в нужном порядке стоят:\n"+
                 "а) все вагоны;\n" +
