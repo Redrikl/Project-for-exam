@@ -1,4 +1,5 @@
 package com.example.projectteorver;
+import java.net.URL;
 import java.util.*;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
@@ -16,6 +17,5 @@ public class HelloController {
         Two two = new Two(seed);
         Three three = new Three(seed);
         welcomeText.setText(ferst.get()+"\n"+two.get()+"\n"+three.get()+"\n"+two.aswer());
-
     }
 }

@@ -10,6 +10,7 @@ public class Two extends Namber {
     int b;
     int k;
     int p;
+
     public String get(){
         vsego = rand(20,30);
         a = rand(3,vsego/3);
@@ -26,6 +27,8 @@ public class Two extends Namber {
     };
 
     public String aswer() {
-        return "a) "+(1.00-((vsego-b)*(vsego-b)*(vsego-b)/(vsego*vsego*vsego)))+" b) "+ chast+"!/"+vsego+"!/";
+        String answer1 =  ((vsego-1)*(vsego-2)*vsego-(vsego - b) * (vsego - b) * (vsego - b))+"/"+((vsego-1)*(vsego-2)*vsego);
+        String answer2 =  ((vsego-1)*(vsego-2)*vsego-a* k * k)+"/"+((vsego-1)*(vsego-2)*vsego);
+        return "a) "+answer1+" b) "+ answer2;
     }
 }

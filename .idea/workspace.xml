@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="795e7e79-5534-4046-9a42-97803eb2cff0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/Three.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/HelloApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/Three.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/Three.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/Two.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/Two.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,12 +50,18 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/User/Documents/GitHub/Project-for-exam"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.projectteorver" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\User\Documents\GitHub\Project-for-exam" />
+      <recent name="D:\User\Documents\GitHub\Project-for-exam\target" />
+      <recent name="D:\User\Documents\GitHub\Project-for-exam\src\main" />
     </key>
   </component>
   <component name="RunManager">
