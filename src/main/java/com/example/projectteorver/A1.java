@@ -1,8 +1,8 @@
 package com.example.projectteorver;
 
-public class Ferst extends Namber{
+public class A1 extends Namber{
 
-    Ferst(int seed) {
+    A1(int seed) {
         super(seed);
     }
     public String get(){

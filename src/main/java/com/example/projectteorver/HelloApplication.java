@@ -13,15 +13,13 @@ import java.net.URL;
 public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("f3.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 320, 240);
         Image icon = new Image(new FileInputStream("src/icon.png"));
-        
         stage.getIcons().add(icon);
         stage.setTitle("Генератор вариантов 0.0.1");
         stage.setScene(scene);
         stage.show();
-
     }
 
     public static void main(String[] args) {

@@ -1,9 +1,7 @@
 package com.example.projectteorver;
 
-import java.util.Random;
-
-public class Two extends Namber {
-    Two(int seed) {
+public class A2 extends Namber {
+    A2(int seed) {
         super(seed);
     }
     int a;

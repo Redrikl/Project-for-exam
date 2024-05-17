@@ -1,11 +1,10 @@
 package com.example.projectteorver;
 
-public class Three extends Namber{
-    Three(int seed) {
+public class A3 extends Namber{
+    A3(int seed) {
         super(seed);
     }
     String s;
-    double vero;
     @Override
     public String get(){
         vsego = rand(1,7);
