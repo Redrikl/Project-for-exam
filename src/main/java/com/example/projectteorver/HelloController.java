@@ -6,12 +6,12 @@ import javafx.scene.control.Label;
 public class HelloController {
     @FXML
     private Label welcomeText;
-    Random random = new Random();
     int seed;
 
     @FXML
     protected void onHelloButtonClick() {
         System.out.println("!!!!!!!!!!!!");
+        Random random = new Random();
         seed=random.nextInt();
         A1 ferst= new A1(seed);
         A2 two = new A2(seed);
