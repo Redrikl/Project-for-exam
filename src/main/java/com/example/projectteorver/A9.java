@@ -28,6 +28,6 @@ public class A9 extends Namber{
                 "б) ровно "+chast1+" конденсаторов.";
     };
     public String aswer() {
-        return "a) "+a+"b) "+b+"\n";
+        return ". "+"a) "+a+"b) "+b+"\n";
     }
 }

@@ -27,6 +27,6 @@ public class A2 extends Namber {
     public String aswer() {
         String answer1 =  ((vsego-1)*(vsego-2)*vsego-(vsego - b) * (vsego - b) * (vsego - b))+"/"+((vsego-1)*(vsego-2)*vsego);
         String answer2 =  ((vsego-1)*(vsego-2)*vsego-a* k * k)+"/"+((vsego-1)*(vsego-2)*vsego);
-        return "a) "+answer1+" b) "+ answer2;
+        return ". "+"a) "+answer1+" b) "+ answer2;
     }
 }

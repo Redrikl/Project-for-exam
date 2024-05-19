@@ -19,9 +19,6 @@ public class A11 extends Namber{
                 "строить график F(X).\n";
     }
     public String aswer(){
-        double a=1000*vero;
-        double roundedNumber = Math.round((Math.exp(-a)*Math.pow(a,3)/Namber.getFactorial(3)+Math.exp(-a)*a*a/2+Math.exp(-a)*a) * 100.0) / 100.0;
-        System.out.println(roundedNumber);
-        return ""+ roundedNumber;
+return ". ";
     }
 }

@@ -14,12 +14,13 @@ public class TestRun extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("Test.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
+        Scene scene = new Scene(fxmlLoader.load(), 470, 350);
         Image icon = new Image(new FileInputStream("src/icon.png"));
         stage.getIcons().add(icon);
         stage.setTitle("Генератор вариантов 0.0.1");
         stage.setScene(scene);
         stage.show();
+        stage.setResizable(false);
     }
 
     public static void main(String[] args) {

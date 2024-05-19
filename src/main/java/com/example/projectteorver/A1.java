@@ -16,6 +16,6 @@ public class A1 extends Namber{
     };
 
     public String aswer() {
-        return "a) 1/("+vsego+"!)"+" b) "+ chast+"!/"+vsego+"!/";
+        return ". "+"a) 1/("+vsego+"!)"+" b) "+ chast+"!/"+vsego+"!/";
     }
 }

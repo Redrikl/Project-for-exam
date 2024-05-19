@@ -25,6 +25,6 @@ public class A4 extends Namber{
                 "студентов будет одинаковым?";
     };
     public String aswer() {
-        return vero1*vero2*vero3*vero4+(1-vero1)*(1-vero2)*(1-vero3)*(1-vero4)+(vero1*(1-vero2)+vero2*(1-vero1))*(vero3*(1-vero4)+vero4*(1-vero3))+"\n";
+        return ". "+(vero1*vero2*vero3*vero4+(1-vero1)*(1-vero2)*(1-vero3)*(1-vero4)+(vero1*(1-vero2)+vero2*(1-vero1))*(vero3*(1-vero4)+vero4*(1-vero3)))+"\n";
     }
 }

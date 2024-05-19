@@ -13,6 +13,6 @@ public class A19 extends Namber{
                 "m + 32].";
     }
     public String aswer(){
-        return "Среднее значение времени T="+1/vero;
+        return ". Среднее значение времени T="+1/vero;
     }
 }

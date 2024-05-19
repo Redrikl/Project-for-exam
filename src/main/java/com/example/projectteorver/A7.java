@@ -26,6 +26,6 @@ public class A7 extends Namber{
                 "породы вероятнее всего она была?";
     };
     public String aswer() {
-        return "Мопс\n";
+        return ". "+"Мопс\n";
     }
 }

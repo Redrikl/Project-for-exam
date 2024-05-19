@@ -19,6 +19,6 @@ public class A3 extends Namber{
                 "в) работать будет только "+s+" компьютер?";
     };
     public String aswer() {
-        return "a) "+(1-(1-vero)*(1-vero))+"!)"+" b) "+ vero*vero+" c) "+vero*(1-vero)+"\n";
+        return ". "+"a) "+(1-(1-vero)*(1-vero))+"!)"+" b) "+ vero*vero+" c) "+vero*(1-vero)+"\n";
     }
 }

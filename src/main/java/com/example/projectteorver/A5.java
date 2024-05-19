@@ -20,6 +20,6 @@ public class A5 extends Namber{
     public String aswer() {
         for(int i=0;i<n;i++)
             s+=(vsego-i)*(chast-i);
-        return s+"\n";
+        return ". "+s+"\n";
     }
 }

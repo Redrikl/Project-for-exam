@@ -18,6 +18,6 @@ public class A18 extends Namber{
                 "ошибкой, не превышающей по абсолютной величине "+V+" м.\n";
     }
     public String aswer(){
-        return "P(−150≤X≤150)=Φ("+(150+vsego)/100+")−Φ("+(-150+vsego)/100+")";
+        return ". P(−150≤X≤150)=Φ("+(150+vsego)/100+")−Φ("+(-150+vsego)/100+")";
     }
 }

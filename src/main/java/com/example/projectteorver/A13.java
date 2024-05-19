@@ -25,6 +25,6 @@ public class A13 extends Namber{
         double p11 = Math.round((p1 * 100.0) / 100.0);
         double p21 = Math.round((p2 * 100.0) / 100.0);
         double p31 = Math.round((p3 * 100.0) / 100.0);
-        return "M(X)="+vsego*vero/100+" Ряд распределения равен: "+p01+" "+p11+" "+p21+" "+p31+"...";
+        return ". "+"M(X)="+vsego*vero/100+" Ряд распределения равен: "+p01+" "+p11+" "+p21+" "+p31+"...";
     }
 }

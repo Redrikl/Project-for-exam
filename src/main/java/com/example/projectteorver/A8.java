@@ -27,6 +27,6 @@ public class A8 extends Namber{
         p1=Math.pow(v,10);
         p2=Math.pow(v,9)*(1-v);
         p3=Math.pow(v,8)*(1-v)*(1-v);
-        return p1+p2+p3+"\n";
+        return ". "+p1+p2+p3+"\n";
     }
 }

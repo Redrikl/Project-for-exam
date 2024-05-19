@@ -28,6 +28,6 @@ public class A6 extends Namber{
                 "ки кролик окажется здоровым?";
     };
     public String aswer() {
-        return vero1/3+vero2/3+vero3/3+"\n";
+        return ". "+((vero1/3)+(vero2/3)+(vero3/3))+"\n";
     }
 }

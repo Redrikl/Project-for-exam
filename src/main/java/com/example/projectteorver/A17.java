@@ -14,6 +14,6 @@ public class A17 extends Namber{
                 "значение T.\n";
     }
     public String aswer(){
-        return "Среднее значение времени T="+1/vero;
+        return ". Среднее значение времени T="+1/vero;
     }
 }
