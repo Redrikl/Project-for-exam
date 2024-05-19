@@ -5,11 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="795e7e79-5534-4046-9a42-97803eb2cff0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/WordWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/ControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/TestRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/projectteorver/Test.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/createdocument.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/HelloApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/WordWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/WordWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$eatedocument.docx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +30,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -55,6 +67,7 @@
     "Application.Fileloder.executor": "Run",
     "Application.HelloApplication.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.TestRun.executor": "Run",
     "Application.WordWorker.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -66,9 +79,26 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15823236",
     "project.structure.side.proportion": "0.37332216",
-    "settings.editor.selected.configurable": "build.tools"
+    "settings.editor.selected.configurable": "preferences.pathVariables"
   }
 }]]></component>
+  <component name="QodanaHighlightedReportService">
+    <option name="localRunNotPublishedPersistedInfo">
+      <LocalReportPersistedInfo>
+        <option name="path" value="C:\Users\User\AppData\Local\Temp\qodana_output\qodana.sarif.json" />
+        <option name="reportGuid" value="706a85b9-f88a-41bc-9c85-de9b56e43212" />
+        <option name="reportName" value="HelloController.java/qodana/2024-05-18" />
+      </LocalReportPersistedInfo>
+    </option>
+  </component>
+  <component name="QodanaIsSelectedPersistenceService">
+    <option name="selectedOrLoading" value="true" />
+  </component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="C:\Users\User\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="706a85b9-f88a-41bc-9c85-de9b56e43212" reportId="HelloController.java/qodana/2024-05-18" />
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.projectteorver" />
@@ -82,46 +112,7 @@
       <recent name="com.example.projectteorver" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WordWorker">
-    <configuration name="CreateWordFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.projectteorver.CreateWordFile" />
-      <module name="ProjectTeorver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.projectteorver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExcelExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.projectteorver.ExcelExample" />
-      <module name="ProjectTeorver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.projectteorver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Filelader" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.projectteorver.Filelader" />
-      <module name="ProjectTeorver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.projectteorver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestRun">
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.projectteorver.HelloApplication" />
       <module name="ProjectTeorver" />
@@ -135,8 +126,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordWorker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.projectteorver.WordWorker" />
+    <configuration name="TestRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.projectteorver.TestRun" />
       <module name="ProjectTeorver" />
       <extension name="coverage">
         <pattern>
@@ -149,18 +140,12 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CreateWordFile" />
-      <item itemvalue="Application.WordWorker" />
-      <item itemvalue="Application.ExcelExample" />
-      <item itemvalue="Application.Filelader" />
+      <item itemvalue="Application.TestRun" />
       <item itemvalue="Application.HelloApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WordWorker" />
-        <item itemvalue="Application.CreateWordFile" />
-        <item itemvalue="Application.ExcelExample" />
-        <item itemvalue="Application.Filelader" />
+        <item itemvalue="Application.TestRun" />
         <item itemvalue="Application.HelloApplication" />
       </list>
     </recent_temporary>

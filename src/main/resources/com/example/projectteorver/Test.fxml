@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectteorver.ControllerTest">
+   <children>
+      <CheckBox fx:id="check12" layoutX="149.0" layoutY="37.0" mnemonicParsing="false" onAction="#onHelloButtonClick" selected="true" text="12 задание" />
+      <Button layoutX="259.0" layoutY="224.0" mnemonicParsing="false" onAction="#genereter" text="Сгенерировать!" />
+      <CheckBox fx:id="check1" layoutX="55.0" layoutY="14.0" mnemonicParsing="false" onAction="#onHelloButtonClick" selected="true" text="1 задание" />
+      <CheckBox fx:id="check7" layoutX="56.0" layoutY="158.0" mnemonicParsing="false" onAction="#onHelloButtonClick" selected="true" text="7 задание" />
+      <CheckBox fx:id="check16" layoutX="149.0" layoutY="137.0" mnemonicParsing="false" onAction="#onHelloButtonClick" selected="true" text="16 задание" />
+      <CheckBox fx:id="check6" layoutX="55.0" layoutY="137.0" mnemonicParsing="false" onAction="#onHelloButtonClick" selected="true" text="6 задание" />
+      <CheckBox fx:id="check15" layoutX="149.0" layoutY="111.0" mnemonicParsing="false" onAction="#onHelloButtonClick" selected="true" text="15 задание" />
+      <CheckBox fx:id="check5" layoutX="56.0" layoutY="111.0" mnemonicParsing="false" onAction="#onHelloButtonClick" selected="true" text="5 задание" />
+      <CheckBox fx:id="check11" layoutX="149.0" layoutY="14.0" mnemonicParsing="false" onAction="#onHelloButtonClick" selected="true" text="11 задание" />
+      <CheckBox fx:id="check14" layoutX="149.0" layoutY="84.0" mnemonicParsing="false" onAction="#onHelloButtonClick" selected="true" text="14 задание" />
+      <CheckBox fx:id="check13" layoutX="149.0" layoutY="61.0" mnemonicParsing="false" onAction="#onHelloButtonClick" selected="true" text="13 задание" />
+      <CheckBox fx:id="check4" layoutX="55.0" layoutY="84.0" mnemonicParsing="false" onAction="#onHelloButtonClick" selected="true" text="4 задание" />
+      <CheckBox fx:id="check3" layoutX="55.0" layoutY="61.0" mnemonicParsing="false" onAction="#onHelloButtonClick" selected="true" text="3 задание" />
+      <CheckBox fx:id="check2" layoutX="55.0" layoutY="37.0" mnemonicParsing="false" onAction="#onHelloButtonClick" selected="true" text="2 задание" />
+      <CheckBox fx:id="check17" layoutX="149.0" layoutY="158.0" mnemonicParsing="false" onAction="#onHelloButtonClick" selected="true" text="17 задание" />
+      <CheckBox fx:id="check8" layoutX="56.0" layoutY="183.0" mnemonicParsing="false" onAction="#onHelloButtonClick" selected="true" text="8 задание" />
+      <CheckBox fx:id="check18" layoutX="149.0" layoutY="183.0" mnemonicParsing="false" onAction="#onHelloButtonClick" selected="true" text="18 задание" />
+      <CheckBox fx:id="check19" layoutX="149.0" layoutY="205.0" mnemonicParsing="false" onAction="#onHelloButtonClick" selected="true" text="19 задание" />
+      <CheckBox fx:id="check9" layoutX="56.0" layoutY="205.0" mnemonicParsing="false" onAction="#onHelloButtonClick" selected="true" text="9 задание" />
+      <CheckBox fx:id="check10" layoutX="52.0" layoutY="228.0" mnemonicParsing="false" onAction="#onHelloButtonClick" selected="true" text="10 задание" />
+      <CheckBox fx:id="check20" layoutX="149.0" layoutY="228.0" mnemonicParsing="false" onAction="#onHelloButtonClick" selected="true" text="20 задание" />
+      <Slider id="1" fx:id="slider1" blockIncrement="1.0" layoutX="68.0" layoutY="285.0" majorTickUnit="1.0" max="15.0" min="1.0" minorTickCount="0" prefHeight="47.0" prefWidth="326.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" value="1.0" />
+      <TextField fx:id="adres" layoutX="259.0" layoutY="171.0" onAction="#genereter" promptText="C:\Users\User\Desktop" />
+   </children>
+</AnchorPane>

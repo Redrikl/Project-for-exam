@@ -5,7 +5,7 @@ public class A14 extends Namber{
         super(seed);
     }
     public String get(){
-        return "Независимые случайные величины X  и  Y заданы таб-\n" +
+        return ". Независимые случайные величины X  и  Y заданы таб-\n" +
                 "лицами распределений.\n" +
                 "Найти:\n" +
                 "1) M(X), M(Y), D(X), D(Y);\n" +

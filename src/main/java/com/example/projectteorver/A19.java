@@ -5,7 +5,7 @@ public class A19 extends Namber{
         super(seed);
     }
     public String get(){
-        return "7. Случайная величина X подчинена нормальному за-\n" +
+        return ". Случайная величина X подчинена нормальному за-\n" +
                 "кону распределения:\n" +
                 "0,1 0,01( 2)2\n" +
                 "\n" +
