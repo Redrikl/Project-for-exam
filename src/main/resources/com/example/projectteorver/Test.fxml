@@ -3,7 +3,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectteorver.ControllerTest">
+<AnchorPane prefHeight="377.0" prefWidth="429.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectteorver.ControllerTest">
    <children>
       <CheckBox fx:id="check12" layoutX="149.0" layoutY="37.0" mnemonicParsing="false" onAction="#onHelloButtonClick" selected="true" text="12 задание" />
       <Button layoutX="259.0" layoutY="224.0" mnemonicParsing="false" onAction="#genereter" text="Сгенерировать!" />

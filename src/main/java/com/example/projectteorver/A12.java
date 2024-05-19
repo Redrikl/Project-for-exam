@@ -12,4 +12,7 @@ public class A12 extends Namber{
                 "содержанием никеля. Найти M(X)  и  D(X) этой случай-\n" +
                 "ной величины.\n";
     };
+    public String aswer(){
+        return "M(X)="+ 5*vsego+"  D(X)="+5*vsego*(1-vsego);
+    }
 }

@@ -6,14 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="795e7e79-5534-4046-9a42-97803eb2cff0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A10.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A11.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A12.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A13.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A17.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A19.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A20.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/Namber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/Namber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/projectteorver/Test.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/projectteorver/Test.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
