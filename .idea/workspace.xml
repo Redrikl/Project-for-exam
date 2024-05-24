@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="795e7e79-5534-4046-9a42-97803eb2cff0" name="Changes" comment="" />
+    <list default="true" id="795e7e79-5534-4046-9a42-97803eb2cff0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/A9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/Namber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/Namber.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,25 +79,13 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/User/Documents/GitHub/Project-for-exam/lib/poi-bin-5.2.3/auxiliary/batik-script-1.14.jar",
+    "last_opened_file_path": "D:/User/Documents/GitHub/Project-for-exam",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15823236",
     "project.structure.side.proportion": "0.37332216",
     "settings.editor.selected.configurable": "preferences.pathVariables"
   }
 }]]></component>
-  <component name="QodanaHighlightedReportService">
-    <option name="localRunNotPublishedPersistedInfo">
-      <LocalReportPersistedInfo>
-        <option name="path" value="C:\Users\User\AppData\Local\Temp\qodana_output\qodana.sarif.json" />
-        <option name="reportGuid" value="706a85b9-f88a-41bc-9c85-de9b56e43212" />
-        <option name="reportName" value="HelloController.java/qodana/2024-05-18" />
-      </LocalReportPersistedInfo>
-    </option>
-  </component>
-  <component name="QodanaIsSelectedPersistenceService">
-    <option name="selectedOrLoading" value="true" />
-  </component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="C:\Users\User\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="706a85b9-f88a-41bc-9c85-de9b56e43212" reportId="HelloController.java/qodana/2024-05-18" />

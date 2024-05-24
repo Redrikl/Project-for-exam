@@ -34,4 +34,8 @@ public class Namber {
         }
         return result;
     }
+    public static double getOcruk(double x, double n) {
+        return  Math.round((x * n)) / n;
+    }
+
 }

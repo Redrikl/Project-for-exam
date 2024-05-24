@@ -19,7 +19,7 @@ public class A8 extends Namber{
     @Override
     public String get(){
 
-        return ". Вероятность забить пенальти для хорошо подготов-\n" +
+        return ". Вероятность забить пенальти для хорошо подготов\n" +
                 "ленного футболиста равна "+v+". Какова вероятность того\n" +
                 "что из десяти пенальти он забьет не менее восьми?";
     };
@@ -27,6 +27,6 @@ public class A8 extends Namber{
         p1=Math.pow(v,10);
         p2=Math.pow(v,9)*(1-v);
         p3=Math.pow(v,8)*(1-v)*(1-v);
-        return ". "+p1+p2+p3+"\n";
+        return ". "+getOcruk(p1+p2+p3,1000)+"\n";
     }
 }

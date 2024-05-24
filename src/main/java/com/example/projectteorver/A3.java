@@ -11,7 +11,7 @@ public class A3 extends Namber{
         if(rand(1,2)==1)s="первый";
         else s="второй";
         vero=(double) vsego/10;
-        return ". Вероятность того, что наугад выбранный компью-\n" +
+        return ". Вероятность того, что наугад выбранный компью\n" +
                 "тер не будет работать, равна "+vero+". Оператор включил два\n" +
                 "компьютера. Какова вероятность того, что:\n" +
                 "а) хотя бы один из них будет работать;\n" +
@@ -19,6 +19,6 @@ public class A3 extends Namber{
                 "в) работать будет только "+s+" компьютер?";
     };
     public String aswer() {
-        return ". "+"a) "+(1-(1-vero)*(1-vero))+"!)"+" b) "+ vero*vero+" c) "+vero*(1-vero)+"\n";
+        return ". "+"a) "+getOcruk((1-(1-vero)*(1-vero)),100)+"!)"+" b) "+ getOcruk(vero*vero,100)+" c) "+getOcruk(vero*(1-vero),100)+"\n";
     }
 }

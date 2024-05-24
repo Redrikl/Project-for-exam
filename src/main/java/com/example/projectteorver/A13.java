@@ -16,15 +16,15 @@ public class A13 extends Namber{
     }
     public String get(){
         return ". Среди семян ржи содержится "+vero+"% семян сорняков.\n" +
-                "Случайным образом взято "+vsego+" семян. Составить ряд рас-\n" +
-                "пределения числа семян сорняков. Найти M(X) этой слу-\n" +
+                "Случайным образом взято "+vsego+" семян. Составить ряд рас\n" +
+                "пределения числа семян сорняков. Найти M(X) этой слу\n" +
                 "чайной величины.\n";
     }
     public String aswer(){
-        double p01 = Math.round((p0 * 100.0) / 100.0);
-        double p11 = Math.round((p1 * 100.0) / 100.0);
-        double p21 = Math.round((p2 * 100.0) / 100.0);
-        double p31 = Math.round((p3 * 100.0) / 100.0);
+        double p01 = getOcruk(p0,100);
+        double p11 = getOcruk(p1,100);
+        double p21 = getOcruk(p2,100);
+        double p31 = getOcruk(p3,100);
         return ". "+"M(X)="+vsego*vero/100+" Ряд распределения равен: "+p01+" "+p11+" "+p21+" "+p31+"...";
     }
 }
