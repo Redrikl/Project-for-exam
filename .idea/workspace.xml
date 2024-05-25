@@ -10,18 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="795e7e79-5534-4046-9a42-97803eb2cff0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Start.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/Launcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ProjectTeorver_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ProjectTeorver_jar2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTeorver_jar2/ProjectTeorver.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/ProjectTeorver.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/ProjectTeorver_jar.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/TestRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/TestRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
