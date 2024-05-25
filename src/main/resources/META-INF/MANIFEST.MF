@@ -1,3 +1,11 @@
 Manifest-Version: 1.0
-Main-Class: com.example.projectteorver.TestRun
+Main-Class: com.example.projectteorver.Launcher
+Class-Path: commons-collections4-4.4.jar javafx-fxml-21-ea+24.jar xmlbea
+ ns-5.1.1.jar curvesapi-1.07.jar commons-compress-1.21.jar javafx-graphi
+ cs-21-ea+24.jar javafx-controls-21-ea+24-win.jar poi-5.2.3.jar javafx-g
+ raphics-21-ea+24-win.jar javafx-controls-21-ea+24.jar javafx-base-21-ea
+ +24.jar javafx-fxml-21-ea+24-win.jar javafx-base-21-ea+24-win.jar poi-o
+ oxml-lite-5.2.3.jar bootstrapfx-core-0.4.0.jar commons-math3-3.6.1.jar 
+ commons-io-2.11.0.jar log4j-api-2.18.0.jar poi-ooxml-5.2.3.jar commons-
+ codec-1.15.jar SparseBitSet-1.2.jar
 

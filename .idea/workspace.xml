@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="ProjectTeorver:jar" />
-      <artifact name="ProjectTeorver:jar2" />
+      <artifact name="Start" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -11,11 +10,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="795e7e79-5534-4046-9a42-97803eb2cff0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ProjectTeorver_jar2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ProjectTeorver_jar2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Start.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/Launcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ProjectTeorver_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ProjectTeorver_jar2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTeorver_jar2/ProjectTeorver.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectTeorver_jar2/ProjectTeorver.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/ProjectTeorver_jar.jar" beforeDir="false" afterPath="$PROJECT_DIR$/run/ProjectTeorver_jar.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectTeorver_jar2/ProjectTeorver.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/ProjectTeorver.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/ProjectTeorver_jar.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/TestRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/projectteorver/TestRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +74,7 @@
     "Application.Filelader.executor": "Run",
     "Application.Fileloder.executor": "Run",
     "Application.HelloApplication.executor": "Run",
+    "Application.Launcher.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.TestRun.executor": "Run",
     "Application.WordWorker.executor": "Run",
@@ -78,7 +85,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/User/Documents/GitHub/Project-for-exam/lib/poi-ooxml-5.2.3.jar",
+    "last_opened_file_path": "D:/User/Documents/GitHub/Project-for-exam/lib/poi-bin-5.2.3/auxiliary/batik-transcoder-1.14.jar",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15823236",
     "project.structure.side.proportion": "0.37332216",
@@ -103,9 +110,22 @@
       <command value="mvn compile" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestRun">
+  <component name="RunManager" selected="Application.Launcher">
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.projectteorver.HelloApplication" />
+      <module name="ProjectTeorver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.projectteorver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.projectteorver.Launcher" />
       <module name="ProjectTeorver" />
       <extension name="coverage">
         <pattern>
@@ -132,11 +152,13 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestRun" />
+      <item itemvalue="Application.Launcher" />
       <item itemvalue="Application.HelloApplication" />
+      <item itemvalue="Application.TestRun" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Launcher" />
         <item itemvalue="Application.TestRun" />
         <item itemvalue="Application.HelloApplication" />
       </list>
