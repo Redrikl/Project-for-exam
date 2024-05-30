@@ -192,8 +192,8 @@ public WordWorker(int seed){
             paragraphH.isKeepNext();
             XWPFRun runH = paragraph1.createRun();
             runH.addCarriageReturn();
-            runH.addCarriageReturn();
-            runH.addCarriageReturn();
+            //runH.addCarriageReturn();
+            // runH.addCarriageReturn();
 
 
 
