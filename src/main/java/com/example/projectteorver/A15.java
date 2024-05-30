@@ -22,6 +22,6 @@ public class A15 extends Namber {
         mx2 = (x1 * x1 * Math.sin(3 * x1) + 2 * x1 * Math.cos(3 * x1) / 3 - 2 * Math.sin(3 * x1) / 9) -
                 (x2 * x2 * Math.sin(3 * x2) + 2 * x2 * Math.cos(3 * x2) / 3 - 2 * Math.sin(3 * x2) / 9);
         dx = mx * mx - mx2;
-        return String.format("M(X) = %.1f, D(X) = %.1f, σ(Х) = %.1f, P = 1", mx, dx, Math.sqrt(dx));
+        return String.format(". M(X) = %.1f, D(X) = %.1f, σ(Х) = %.1f, P = 1", mx, dx, Math.sqrt(dx));
     }
 }

@@ -69,27 +69,27 @@ public class A14 extends Namber{
 //                    z1.put(tmpZ, tmpP + z1.get(tmpZ));
 //            }
 //
-//        Map<Integer, Double> z2 = new HashMap<>();
-//        for (int i = 0; i < 3; i++)
-//            for (int j = 0; j < 2; j++) {
-//                int tmpZ = x[i] * y[j];
-//                double tmpP = px[i] * py[j];
-//                if ( !z2.containsKey(tmpZ) )
-//                    z2.put(tmpZ, tmpP);
-//                else
-//                    z2.put(tmpZ, tmpP + z2.get(tmpZ));
-//            }
+        Map<Integer, Double> z2 = new HashMap<>();
+        for (int i = 0; i < 3; i++)
+            for (int j = 0; j < 2; j++) {
+                int tmpZ = x[i] * y[j];
+                double tmpP = px[i] * py[j];
+                if ( !z2.containsKey(tmpZ) )
+                    z2.put(tmpZ, tmpP);
+                else
+                    z2.put(tmpZ, tmpP + z2.get(tmpZ));
+            }
 
 
-        double mz1 = 0.0, mz2 = 0.0, dz1 = 0.0, dz2 = 0.0;
+        double mz1 = 0.0, mz2 = 0.0, mz22 = 0.0, dz1 = 0.0, dz2 = 0.0;
         mz1 = 2 * mx + my;
         mz2 = mx * my;
         dz1 = 4 * dx + dy;
-        dz2 = dx * dy + mx * mx * dy + my * my * dx;
-
-
+        for (Integer key : z2.keySet())
+            mz22 += key * key * z2.get(key);
+        dz2 = mz22 - mz2 * mz2;
         return String.format(
-                "M(X) = %.1f, M(Y) = %.1f, D(X) = %.1f, D(Y) = %.1f" +
+                ". M(X) = %.1f, M(Y) = %.1f, D(X) = %.1f, D(Y) = %.1f" +
                 "M(Z1) = %.1f, M(Z2) = %.1f, D(Z1) = %.1f, D(Z2) = %.1f", mx, my, dx, dy, mz1, mz2, dz1, dz2
         );
     }
