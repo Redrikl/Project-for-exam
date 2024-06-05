@@ -21,7 +21,9 @@ public class B3 extends Namber {
     }
 
     public String aswer() {
-        
-        return ". а)б)в)";
+        double c = 1 - (1 - a) * (1 - b);
+        double d = a * (1 - b);
+        double e = a * b;
+        return ". а) P = " + a + ", б) P = " + d + ", в) P = " + e;
     }
 }
